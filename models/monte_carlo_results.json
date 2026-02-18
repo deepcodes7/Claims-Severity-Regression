@@ -1,0 +1,51 @@
+{
+  "configuration": {
+    "n_simulations": 10000,
+    "portfolio_size": 1000,
+    "residual_model": {
+      "distribution": "Normal",
+      "mean": 0.0008981439038364765,
+      "std": 0.5436598229247492,
+      "space": "log"
+    }
+  },
+  "portfolio_summary": {
+    "point_estimate": 2602838.5,
+    "actual_total": 2967659.8899999997,
+    "simulated_mean": 3020642.5526051563,
+    "simulated_median": 3019443.772764768,
+    "simulated_std": 68624.2145213385,
+    "simulated_min": 2771356.4246129873,
+    "simulated_max": 3290704.530219432
+  },
+  "risk_metrics": {
+    "VaR_75": 3065680.9391503343,
+    "VaR_90": 3108997.5795252994,
+    "VaR_95": 3135958.480633827,
+    "VaR_99": 3185673.020509383
+  },
+  "tail_risk_metrics": {
+    "TVaR_75": 3108776.102342246,
+    "TVaR_90": 3144598.809932777,
+    "TVaR_95": 3167856.252355751,
+    "TVaR_99": 3215852.8547200067
+  },
+  "capital_buffers": {
+    "buffer_75_pct": 17.782218879516893,
+    "buffer_90_pct": 19.446426642501997,
+    "buffer_95_pct": 20.482253533357024,
+    "buffer_99_pct": 22.392266001497333
+  },
+  "calibration": {
+    "ci_90_coverage_pct": 89.8
+  },
+  "scenarios": {
+    "Best Case (10th %ile)": 2933315.402543741,
+    "Optimistic (25th %ile)": 2973452.733242368,
+    "Expected (50th %ile)": 3019443.772764768,
+    "Conservative (75th %ile)": 3065680.9391503343,
+    "Stressed (90th %ile)": 3108997.5795252994,
+    "Severe (95th %ile)": 3135958.480633827,
+    "Catastrophic (99th %ile)": 3185673.020509383
+  }
+}
