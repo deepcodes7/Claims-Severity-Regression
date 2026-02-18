@@ -1,0 +1,45 @@
+{
+  "model_name": "XGBoost Regressor",
+  "hyperparameters": {
+    "objective": "reg:squarederror",
+    "n_estimators": 100,
+    "max_depth": 5,
+    "learning_rate": 0.1,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0,
+    "reg_lambda": 1.0,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "train_metrics": {
+    "mae": 1152.9556996147026,
+    "rmse": 1950.6110433308093,
+    "r2": 0.5524806079971586,
+    "mape": 49.99612875136544
+  },
+  "test_metrics": {
+    "mae": 1161.262951699243,
+    "rmse": 1947.0019030949763,
+    "r2": 0.5354163786961776,
+    "mape": 48.75395345557973
+  },
+  "comparison_with_baseline": {
+    "mae_improvement_pct": 9.816143279028715,
+    "r2_improvement_pct": 111.34524634604779,
+    "mae_reduction_dollars": 126.39871406006114,
+    "large_errors_reduction": 85
+  },
+  "top_10_features": [
+    "cat80",
+    "cat79",
+    "cat12",
+    "cat87",
+    "cat101",
+    "cat1",
+    "cat81",
+    "cat103",
+    "cat57",
+    "cat53"
+  ]
+}

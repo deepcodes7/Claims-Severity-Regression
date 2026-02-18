@@ -1,0 +1,14 @@
+{
+  "original_features": 130,
+  "encoded_features": 130,
+  "categorical_features": 116,
+  "numerical_features": 14,
+  "encoding_method": "label_encoding",
+  "target_transformation": "log1p",
+  "train_samples": 150654,
+  "test_samples": 37664,
+  "train_target_mean": 7.685676205708369,
+  "train_target_std": 0.8122105037982738,
+  "original_target_skewness": 3.7949583775378604,
+  "transformed_target_skewness": 0.09661958950315053
+}
